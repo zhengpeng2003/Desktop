@@ -75,7 +75,7 @@ INCLUDEPATH += . \
                home \
                monitor \
                service \
-                ../Desktop
+                ../../Desktop
 # 去掉有问题的DESTDIR设置，让qmake自动处理
 # 或者只设置中间文件目录
 OBJECTS_DIR = build/.obj
@@ -86,3 +86,7 @@ UI_DIR = build/.ui
 # 部署配置（可选）
 # target.path = /opt/$${TARGET}/bin
 # INSTALLS += target
+
+
+#arm exe
+DESTDIR = $$PWD/../../Desktop/appexe_arm

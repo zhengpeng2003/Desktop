@@ -1,34 +1,33 @@
-# ===== Qt / C++ =====
+# ===== Qt build output =====
+build/
+*/build/
+*/build-*
+*.pro.user*
+*.qmake.stash
+Makefile
+
+# ===== Qt generated files =====
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+moc_predefs.h
+
+# ===== Executables =====
+Desktop
+AutoManager
+GPIO
+iMX6ULLS1-Pro
+
+# ===== Temporary =====
 *.o
 *.obj
 *.so
 *.a
-*.dll
-*.exe
+*.log
 
-# ===== Qt generated =====
-moc_*.cpp
-ui_*.h
-qrc_*.cpp
-.qmake.stash
-*.pro.user*
-*.autosave
-
-# ===== Build dirs =====
-build-*/
-build/
-*/build/
-*/build-*/
-
-# ===== IDE =====
-.vscode/
-.idea/
-
-# ===== OS =====
-.DS_Store
-Thumbs.db
-
-# ===== Runtime output (if any) =====
-AppExe/
-bin/
+# ===== Runtime =====
+Desktop/appexe_arm/
+Desktop/AppExe/
+Desktop/AppExe_Arm/
 

@@ -22,7 +22,7 @@ HEADERS += \
 FORMS += \
     myitem.ui \
     widget.ui
-INCLUDEPATH += ../Desktop
+INCLUDEPATH += ../../Desktop
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -31,3 +31,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     res.qrc
+DESTDIR = $$PWD/../../Desktop/appexe_arm
