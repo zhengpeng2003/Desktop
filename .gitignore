@@ -1,9 +1,15 @@
 ############################
-# Qt Creator
+# Qt Creator / Qt
 ############################
+build/
+*/build/
 build-*/
 *.pro.user
 *.pro.user.*
+
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
 *.qmlc
 *.jsc
 
@@ -17,6 +23,14 @@ build-*/
 *.so.*
 *.elf
 *.map
+
+############################
+# Executables
+############################
+AutoManager
+GPIO
+Desktop
+iMX6ULLS1-Pro
 
 ############################
 # Make / CMake
@@ -58,4 +72,6 @@ Thumbs.db
 !*.ui
 !*.qml
 !*.qrc
+!*.md
+!*.txt
 
