@@ -1,77 +1,34 @@
-############################
-# Qt Creator / Qt
-############################
-build/
-*/build/
-build-*/
-*.pro.user
-*.pro.user.*
+# ===== Qt / C++ =====
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
 
+# ===== Qt generated =====
 moc_*.cpp
 ui_*.h
 qrc_*.cpp
-*.qmlc
-*.jsc
+.qmake.stash
+*.pro.user*
+*.autosave
 
-############################
-# C / C++
-############################
-*.o
-*.obj
-*.a
-*.so
-*.so.*
-*.elf
-*.map
+# ===== Build dirs =====
+build-*/
+build/
+*/build/
+*/build-*/
 
-############################
-# Executables
-############################
-AutoManager
-GPIO
-Desktop
-iMX6ULLS1-Pro
-
-############################
-# Make / CMake
-############################
-Makefile
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-compile_commands.json
-
-############################
-# Runtime / logs
-############################
-*.log
-*.tmp
-*.cache
-*.swp
-*.bak
-
-############################
-# IDE
-############################
+# ===== IDE =====
 .vscode/
 .idea/
 
-############################
-# OS
-############################
+# ===== OS =====
 .DS_Store
 Thumbs.db
 
-############################
-# Keep source
-############################
-!*.h
-!*.hpp
-!*.c
-!*.cpp
-!*.ui
-!*.qml
-!*.qrc
-!*.md
-!*.txt
+# ===== Runtime output (if any) =====
+AppExe/
+bin/
 

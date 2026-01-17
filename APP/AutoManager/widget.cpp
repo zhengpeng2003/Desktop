@@ -1,5 +1,6 @@
 #include "widget.h"
 #include "ui_widget.h"
+//tets
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::Widget)// _Set("../../../Desktop/Appinfo/Appinfo.ini",QSettings::IniFormat)
